@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ExemplePersistencia.iml" filepath="$PROJECT_DIR$/ExemplePersistencia.iml" />
+      <module fileurl="file://C:\Users\Desenvolvedor\Documents\trabalhoPersistenciaPosMobile\ExemplePersistencia\ExemplePersistencia.iml" filepath="C:\Users\Desenvolvedor\Documents\trabalhoPersistenciaPosMobile\ExemplePersistencia\ExemplePersistencia.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Desenvolvedor\Documents\trabalhoPersistenciaPosMobile\ExemplePersistencia\app\app.iml" filepath="C:\Users\Desenvolvedor\Documents\trabalhoPersistenciaPosMobile\ExemplePersistencia\app\app.iml" />
     </modules>
   </component>
 </project>
