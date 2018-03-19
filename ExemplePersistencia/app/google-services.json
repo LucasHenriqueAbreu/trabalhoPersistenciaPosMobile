@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "984511200806",
+    "firebase_url": "https://projeto-22811.firebaseio.com",
+    "project_id": "projeto-22811",
+    "storage_bucket": "projeto-22811.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984511200806:android:8fb02d753dc15d8f",
+        "android_client_info": {
+          "package_name": "com.example.paulo.exemplepersistencia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984511200806-g6etb45sg49o02hr30119a7sc86l09pq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGjTkyju3LvdpTMfUv69VQY4-AvWnk20w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
