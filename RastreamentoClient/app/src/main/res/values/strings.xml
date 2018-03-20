@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Rastreamento-Client</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Menu</string>
+    <string name="label_mapa">Mapa</string>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAl6NjDd3ryd0oELioJdkxw_qbT1sQzQUQ</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="titulo_spinner_rotas">Rotas</string>
+    <string name="title_activity_mapa">Mapa</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.teste.rastreamento_client.activity.PrincipalActivity"
+    tools:showIn="@layout/app_bar_principal">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Criar tabela"
+        android:id="@+id/btnMap"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inserir"
+        android:layout_below="@id/btnMap"
+        android:id="@+id/btnInserir"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnInserir"
+        android:text="Buscar"
+        android:id="@+id/btnBuscar"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnBuscar"
+        android:text="Inserir Rotas"
+        android:id="@+id/btnInserirRotas"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnInserirRotas"
+        android:text="Buscar Rotas"
+        android:id="@+id/btnBuscarRotas"/>
+
+    <Spinner
+        android:id="@+id/spVeiculos"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/btnBuscarRotas" />
+
+    <Spinner
+        android:id="@+id/spRotas"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/spVeiculos" />
+
+</RelativeLayout>
