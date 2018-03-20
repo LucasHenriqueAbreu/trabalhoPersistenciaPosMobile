@@ -6,6 +6,8 @@ import android.provider.BaseColumns;
  * Created by Paulo on 17/03/2018.
  */
 
+//comentario teste commit
+
 public class FeedContract implements BaseColumns {
     public static final String TABLE_NAME = "entry";
     public static final String COLUMN_NAME_TITLE = "title";
