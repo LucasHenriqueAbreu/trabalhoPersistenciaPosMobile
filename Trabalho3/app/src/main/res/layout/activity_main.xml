@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/containerCL"
+    tools:context="com.example.trabablho3.MainActivity">
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:textAlignment="center"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/edtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appName"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="ToDo" />
+
+    <EditText
+        android:id="@+id/edtDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtNome"
+        android:ems="10"
+        android:hint="Descrição"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/btnInsertSqlite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/edtDescricao"
+        android:text="Insert SQLite" />
+
+    <Button
+        android:id="@+id/btnAtualizarSqlite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/btnInsertSqlite"
+        android:text="Atualizar SQLite" />
+
+    <Button
+        android:id="@+id/btnInsertRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/edtDescricao"
+        android:text="Insert Room" />
+
+    <Button
+        android:id="@+id/btnAtualizarRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/btnInsertRoom"
+        android:text="Atualizar Room" />
+
+    <LinearLayout
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/btnAtualizarSqlite"
+        android:gravity="start"
+        android:orientation="horizontal">
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/viewSQLite"
+            android:scrollbars="vertical"
+            android:layout_gravity="center"
+            android:layout_weight=".5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        </android.support.v7.widget.RecyclerView>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/viewRoom"
+            android:scrollbars="vertical"
+            android:layout_gravity="center"
+            android:layout_weight=".5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+</RelativeLayout>
